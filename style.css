@@ -1,3 +1,6 @@
+*{
+	box-sizing:border-box;
+}
 img{ 
 	height:295px;
 	padding:0px;
@@ -9,13 +12,25 @@ img{
 	padding: 20px;
 
 	
-
-
+}
+li{
+	list-style:none;
+	margin:2px;
 }
 .octocat{
 	float: left;
+	border-bottom: solid;
+	border-bottom-width:thin;
+color: lightgrey;
+margin:9px;
+height: 330px;
 
 }
+a{
+	transition-duration: none;
+}
+
+
 
 .authors img{
 	height: 20px;
@@ -39,13 +54,23 @@ padding:0px;
 color:black;
 padding:0px;
 font-size:13px;
-font-family: Monaco, Consolas, "Lucida Console", monospace;
+font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif
+}
+
 
 }
 .image-footer{
-	
-border-bottom: solid;
+	border-bottom: solid;
 border-bottom-width:thin;
-color: lightgrey;grey
+color: lightgrey;
+
+
+}
+
+span.image-number:before{
+	content: "#";
+}
+a{
+	font-size:0px;
 }
 
