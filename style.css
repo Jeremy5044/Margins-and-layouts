@@ -23,7 +23,7 @@ li{
 	border-bottom-width:thin;
 color: lightgrey;
 margin:9px;
-height: 330px;
+height: 335px;
 
 }
 a{
@@ -71,6 +71,6 @@ span.image-number:before{
 	content: "#";
 }
 a{
-	font-size:0px;
+	font-size:13px;
 }
 
