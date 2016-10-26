@@ -70,5 +70,7 @@ span.image-number:before{
 }
 a{
 	font-size:13px;
+	text-decoration: none;
+	color: black;
 }
 
